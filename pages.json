@@ -1,0 +1,156 @@
+{
+	"easycom": {  
+        "autoscan": true,  
+        "custom": {  
+            "tui-(.*)": "@/components/thorui/tui-$1/tui-$1.vue"  
+        }  
+    },
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		}
+        ,{
+            "path" : "pages/login/login",
+            "style" : {
+				"navigationBarTitleText": "手机号登录"
+			}
+        }
+        ,{
+            "path" : "pages/login/register",
+            "style" : {
+				"navigationBarTitleText": "手机号注册"
+			}
+        }
+        ,{
+            "path" : "pages/login/forget",
+            "style" : {
+				"navigationBarTitleText": "密码找回"
+			}
+        }
+        ,{
+            "path" : "pages/user/userCenter",
+            "style" : {
+				"navigationBarTitleText": "个人中心"
+			}
+        }
+        ,{
+            "path" : "pages/buy/tradeCenter",
+            "style" : {
+				"navigationBarTitleText": "交易大厅"
+			}
+        }
+        ,{
+            "path" : "pages/buy/entrustList",
+            "style" : {
+				"navigationBarTitleText": "挂单列表"
+			}
+        }
+        ,{
+            "path" : "pages/buy/entrusBuyList",
+            "style" : {
+				"navigationBarTitleText": "买入列表"
+			}
+        }
+        ,{
+            "path" : "pages/buy/entrusBuy",
+            "style" : {
+				"navigationBarTitleText": "买入页面"
+			}
+        }
+        ,{
+            "path" : "pages/buy/entrusSellList",
+            "style" : {
+				"navigationBarTitleText": "卖出列表"
+			}
+        }
+        ,{
+            "path" : "pages/buy/entrusSell",
+            "style" : {
+				"navigationBarTitleText": "卖出页面"
+			}
+        }
+        ,{
+            "path" : "pages/buy/wholesaleList",
+            "style" : {
+				"navigationBarTitleText": "批发买入列表"
+			}
+        }
+        ,{
+            "path" : "pages/buy/wholesale",
+            "style" : {
+				"navigationBarTitleText": "批发买入页面"
+			}
+        }
+        ,{
+            "path" : "pages/list/distGoodsList",
+            "style" : {
+				"navigationBarTitleText": "商品列表"
+			}
+        }
+        ,{
+            "path" : "pages/list/distGoodsDetail",
+            "style" : {
+				"navigationBarTitleText": "商品详情"
+			}
+        }
+        ,{
+            "path" : "pages/user/inventoryList",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/user/bookLog",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/user/chargeOffLog",
+            "style" : {}
+        }
+    ],
+	"tabBar": {
+		"color":"#8a8a8a",
+		"selectedColor":"#d4237a",
+		"borderStyle":"black",
+		"backgroundColor":"#ffffff",
+		"list": [
+					{
+						"pagePath":"pages/index",
+						"text":"首页",
+						"iconPath":"static/shouye.png",
+						"selectedIconPath":"static/shouyes.png"
+					},
+					{
+						"pagePath":"pages/login/login",
+						"text":"登录",
+						"iconPath":"static/login_bg@3x.png",
+						"selectedIconPath":"static/logo.png"
+					},
+					{
+						"pagePath":"pages/list/distGoodsList",
+						"text":"商品",
+						"iconPath":"static/login_bg@3x.png",
+						"selectedIconPath":"static/logo.png"
+					},
+					{
+						"pagePath":"pages/buy/tradeCenter",
+						"text":"交易大厅",
+						"iconPath":"static/fenlei.png",
+						"selectedIconPath":"static/fenleis.png"
+					},
+					{
+						"pagePath":"pages/user/userCenter",
+						"text":"个人中心",
+						"iconPath":"static/yonghu.png",
+						"selectedIconPath":"static/yonghus.png"
+					}
+				]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
