@@ -150,7 +150,6 @@
 		line-height: 1.6rem;
 		border-radius: 10rpx;
 		font-size: 0.6rem;
-		padding: 0 10%;
 		color: #fff;
 	}
 	.four button:first-child{
